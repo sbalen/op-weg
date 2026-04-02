@@ -69,7 +69,7 @@ Restaurant(
     editorial_note: str     # "why stop here" — the soul of the record
     phone:          str
     website:        str
-    opening_hours:  dict    # {mon: "12-14", tue: null, ...}
+    opening_hours:  dict    # {mon: "12-14", tue: null, ...} — verified by phone
     verified_date:  date
     active:         bool
 )
@@ -124,9 +124,37 @@ Freshness strategy: verified_date field + seasonal review cycle.
 
 ---
 
+**Rating drempel is 4.2, niet 4.0.** Geen enkel restaurant in de uiteindelijke selectie van 11 heeft een Google rating lager dan 4.2. In de eerste pipeline run werd gefilterd op ≥ 4.0 — dit kan in de volgende run aangescherpt worden.
+
+---
+
+## Curation Learnings
+
+From the first manual review pass of ~50 Google Places candidates:
+
+**Parking as a rurality proxy.** Free street parking in the Google object strongly correlates with being outside a city centre. Useful as a pipeline filter — possibly more reliable than the city centre radius approach.
+
+**Snackbar noise.** Many candidates were pizza places and snackbars. Google's "Snelle hap" type tag is the most reliable filter for snackbars — better than `meal_takeaway` alone. Some pizza places may make the final cut if the vibe is right.
+
+**Price level 2 is the sweet spot.** Level 1 = snackbar territory. Level 3+ = too formal for kids and a highway lunch stop. Filter hard on `price_level == 2` in future pipeline runs. Note that price level is often missing from the Google object — absence is not disqualifying, but presence of level 1 or 3+ is a strong signal to exclude.
+
+---
+
+## Bekende beperkingen (MVP)
+
+- **Rijrichting**: de app werkt alleen richting Parijs (km oplopend). Rijdt de gebruiker terug richting Nederland, dan zijn er geen resultaten. De out-of-bounds state vangt dit op: "Je rijdt buiten het gebied of in de verkeerde richting." Post-MVP op te lossen via GPS heading detectie.
+
+- **Nulpunt is Haarlem** (52.39, 4.64) — alle km_markers zijn berekend vanaf dit punt. De app moet de huidige positie van de gebruiker altijd uitdrukken als km vanaf datzelfde nulpunt, via dezelfde route.
+
+- **Route moet deterministisch zijn** — OSRM kan op een andere dag een andere route teruggeven (file, omleiding, gewijzigde wegdata). De route is daarom eenmalig vastgelegd als een vaste polyline in de productie database en wordt niet runtime herberekend. De km_markers zijn alleen geldig zolang deze vaste route gebruikt wordt.
+
+---
+
 ## Open Questions (Post-MVP)
 
 - Rotating algorithm to avoid showing regulars the same restaurant every trip
 - Extending the corridor (NL → south of Paris)
 - Community submissions with editorial approval
 - Seasonal data refresh automation
+- Admin tool for managing the restaurant list (add, edit, deactivate, update hours)
+- Uitgebreide pipeline met subboxen: splits elke corridorbox op in een 2×2 grid van kleinere zoekopdrachten (max 240 candidates per box in plaats van 60) voor betere dekking, gecombineerd met geautomatiseerde filtering op basis van geleerde criteria: rating ≥ 4.2, price_level == 2, uitsluiting van "Snelle hap", vrij parkeren als proxy voor ligging buiten stadscentrum
