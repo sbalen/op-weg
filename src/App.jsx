@@ -5,11 +5,19 @@ import RecommendationScreen from './components/RecommendationScreen'
 import OutOfBoundsScreen from './components/OutOfBoundsScreen'
 import LoadingScreen from './components/LoadingScreen'
 
+const HIGHWAY_SPEED_KMH = 120
+const MAX_TOTAL_MINUTES = 40
+
+function totalMinutes(userKm, restaurant) {
+  const highwayMinutes = (restaurant.km_marker - userKm) / HIGHWAY_SPEED_KMH * 60
+  return highwayMinutes + restaurant.detour_minutes
+}
+
 function findRecommendation(userLat, userLng) {
   const km = getKmMarker(userLat, userLng)
 
   const candidates = restaurants
-    .filter(r => r.active && r.km_marker > km && r.detour_minutes <= 20)
+    .filter(r => r.active && r.km_marker > km && totalMinutes(km, r) <= MAX_TOTAL_MINUTES)
     .sort((a, b) => a.priority - b.priority)
 
   return candidates[0] ?? null
