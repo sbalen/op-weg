@@ -1,0 +1,39 @@
+:root {
+  --parchment: #F4EFE6;
+  --near-black: #1A1410;
+  --sand-dark: #2C2418;
+  --sand-mid: #7A6F5E;
+  --sand-light: #C9BEA8;
+  --sand-pale: #E0D9CC;
+  --white: #FFFFFF;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  height: 100dvh;
+}
+
+body {
+  background-color: var(--parchment);
+  color: var(--near-black);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}

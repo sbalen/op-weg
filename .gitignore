@@ -8,3 +8,5 @@ data/processed/*
 data/scored/*
 data/production/*
 !data/**/.gitkeep
+node_modules/
+dist/
