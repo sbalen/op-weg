@@ -2,36 +2,29 @@
 
 ## The Problem
 
-Als je wegrijdt naar vakantie, dan komt er vroeg of laat dat moment dat je bij McDonald's gaat eten. Wil je dat? Niet echt, maar dat is nou eenmaal wat je én en route kan vinden, én waarvan je weet wat je krijgt — dat het überhaupt open is bijvoorbeeld.
+Als je wegrijdt naar vakantie, dan komt er vroeg of laat dat moment dat je bij McDonald's gaat eten. Dat is nou eenmaal wat je én onderweg kan vinden, én waarvan je weet wat je kan verwachten — dat het überhaupt open is bijvoorbeeld.
 
-Wie willen dit? Ouders uit Haarlem, onderweg naar Frankrijk. Die zijn rond lunchtijd op de Belgische E17 of de Franse A1. Wat willen ze dan? Iets leuks, lokaal, dat open is (halszaak). Chiquer dan McDonald's, maar minder chic dan de Gault Milau (de kinderen blijven nooit zo lang stil zitten). Oh, en niet meer dan 20 minuten omrijden.
+Straks, Juli. Ouders uit Haarlem, Bussum, Arnhem, onderweg naar Frankrijk. En die zijn rond lunchtijd op de Belgische E17 of de Franse A1. Die willen iets LEUKS: lokaal, eigen, open (halszaak), en chiquer dan McDonald's, maar minder chic dan de Gault Milau . Oh, en niet meer dan 20 minuten omrijden.
 
-Hoe kunnen we dat regelen? Een app met maar één knop, of zelfs nul. Makkelijk.
+Kan dat? Yep: Een app met maar één knop, of zelfs nul. Makkelijk.
 
 ---
 
 ## Brand
 
-**Luxe volgens kakkers. Niet Gucci maar een Volvo V40.**
+Ooit was ik in Viareggio met — mijn toen nog niet — vrouw. En voor lokale begrippen waar we belachelijk vroeg uit eten — 20:00! We kwamen bij een oud-bruin trattoriaatje. En we waren de enigen. Het enige personeel dat we gezien hebben was de chefkok/eigenaar —compleet met witte koksmuts. We hebben nooit een menukaart gezien, en we hebben nooit meer zo lekker gegeten. 
+Dat is vakantie. 
 
-The target user is a Dutch dual-income family. They have taste, they have standards, they are not flashy about it. They want things that work, look good, and don't require explanation. The app should feel the same way.
+Ik ga met plezier naar een sterrenrestaurant, en met hetzelfde plezier naar de Burger King. Er is een tijd en plaats voor alles. 
 
-### Story
-
-Ooit was ik in Viareggio met mijn (toen nog niet) vrouw. Voor lokale begrippen waar we belachelijk vroeg uit eten (20:00?) en we kwamen bij een klein oud-bruin trattoriaatje. We waren tot vrijwel de enigen, en het enige personeel dat we gezien hebben was de chefkok/eigenaar (compleet met witte koksmuts). We hebben geen menukaart gezien, en we hebben nooit meer zo lekker gegeten. Dat is vakantie. 
-
-Ik ga met plezier naar een sterrenrestaurant, en soms met hetzelfde plezier naar de Burger King. Er is een tijd en plaats voor dat soort dingen. En 
-
-Bij mij om de hoek ken ik dit soort plekken: twee straten verderop woont een ouder Indisch echtpaar. Ze lopen altijd op sloffen, ze kijken TV op plastic tuinstoelen in de huiskamer achter hun toko, en als ik binnenkom dan noemen ze me bij de voornaam van mijn jongste dochter en de lievelingssaus van mijn vrouw hebben ze dan al onder toonbank staan. Ietsje verderop staat staat een ouderwetste keet op een pleintje. Ik zou niet verbaasd zijn als die daar naar toe is gebracht met paard en wagen. Erin werkt een stel dat 35 of 55 zou kunnen zijn, en die werken samen als een machine. De man heeft klauwen als kolenschoppen, waar hij 200 kilo aardappelen op een dag mee schilt. De vrouw zag ik laatst een jack teruggeven aan een klant die hij twee weken geleden als was vergeten - zij niet. 
+Bij mij om de hoek ken ik plekken. Twee straten verderop woont een ouder Indisch echtpaar. Ze lopen altijd op sloffen, ze kijken TV op plastic tuinstoelen in de huiskamer achter hun toko, en als ik binnenkom dan noemen ze me bij de voornaam van mijn jongste dochter. Ietsje verderop staat staat een ouderwetste keet op een pleintje — het zou mij niet verbazen als die daar is gebracht met paard en wagen. Erbinnen werkt een stel dat 35 of 55 zou kunnen zijn, en die werken samen als een machine. De man heeft klauwen als kolenschoppen, waar hij 200 kilo aardappelen op een dag mee schilt. De vrouw zag ik laatst een jack teruggeven aan een klant die hij twee weken geleden als was vergeten - maar zij niet. 
 
 Maar ik woon hier, jij woont daar, en we wonen niet op vakantie. 
 Daarom is deze app er: op de eerste dag van de zomervakantie wil iedereen die chefkok/eigenaar met sloffen 200 kilo aardappelen. 
 
----
+### Target User
 
-## Target User
-
-- Dutch couple, dual income, kids in the back
+- Dutch couple, dual income, kids in the back of the Volvo V40
 - Leaving from the Netherlands, heading to France for vacation
 - On the E17 (Belgium) or A1 (France) around lunchtime
 - Not looking to discover — looking to **decide**
