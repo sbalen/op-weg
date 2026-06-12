@@ -20,7 +20,7 @@ Ik ga met plezier naar een sterrenrestaurant, en met hetzelfde plezier naar de B
 Bij mij om de hoek ken ik plekken. Twee straten verderop woont een ouder Indisch echtpaar. Ze lopen altijd op sloffen, ze kijken TV op plastic tuinstoelen in de huiskamer achter hun toko, en als ik binnenkom dan noemen ze me bij de voornaam van mijn jongste dochter. Ietsje verderop staat staat een ouderwetste keet op een pleintje — het zou mij niet verbazen als die daar is gebracht met paard en wagen. Erbinnen werkt een stel dat 35 of 55 zou kunnen zijn, en die werken samen als een machine. De man heeft klauwen als kolenschoppen, waar hij 200 kilo aardappelen op een dag mee schilt. De vrouw zag ik laatst een jack teruggeven aan een klant die hij twee weken geleden als was vergeten - maar zij niet. 
 
 Maar ik woon hier, jij woont daar, en we wonen niet op vakantie. 
-Daarom is deze app er: op de eerste dag van de zomervakantie wil iedereen die chefkok/eigenaar met sloffen 200 kilo aardappelen. 
+Daarom is deze app er: op de eerste dag van de zomervakantie wil je die chefkok/eigenaar met die witte muts. 
 
 ### Target User
 
